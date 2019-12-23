@@ -13,6 +13,13 @@ const HomeScreen = (props) => {
          onPress = {()=> {props.navigation.navigate('Counter')}}>
 
     </Button>
+
+    <Button
+         style = {styles.Button}
+         title = 'Go to Counter Screen Demo (Using reducers)'
+         onPress = {()=> {props.navigation.navigate('CounterReducerDemo')}}>
+
+    </Button>
      
     <Button
          style = {styles.Button}
@@ -25,6 +32,15 @@ const HomeScreen = (props) => {
          style = {styles.Button}
          title = 'Go to Square Screen Demo'
          onPress = {()=> {props.navigation.navigate('SQuare')}}>
+
+    </Button>
+
+    
+     
+    <Button
+         style = {styles.Button}
+         title = 'Go to Text Screen Demo'
+         onPress = {()=> {props.navigation.navigate('MyText')}}>
 
     </Button>
      
